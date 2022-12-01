@@ -1,0 +1,86 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#top-left-navigation{
+  font-weight: bold;
+  padding-left: 10%;
+  color: white;
+  background-color: black;
+  width: 100%;
+}
+#top-rigth-navigation{
+  font-weight: bold;
+  display: inline-block;
+  padding-left: 70%;
+}
+#navigation{
+  background-color: black;
+}
+.first-navigation > li{
+  color: rgb(246, 246, 246);
+  font-size: 20px;
+  font-weight: bold;
+  padding-right: 1%;
+}
+.first-navigation{
+  border-top: 1px solid rgb(220, 220, 220);
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+}
+.first-navigation > li {
+  display: inline
+}
+.log-in{
+  padding-left: 20%;
+}
+#options{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: white;
+}
+.options-head{
+  padding-left: 10px;
+}
+#options > li{
+  color: black;
+  display: inline;
+}
+.phone-number{
+  padding-left: 40%;
+  font-weight: bold;
+}
+button{
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  border-radius: 360px ;
+  transition-duration: 0.4s;
+}
+button:hover{
+  transform: translate(10px 10px);
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+.title1{
+  font-size: 40px;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+#bottom-list > ul{
+  display: inline;
+}
+#last-div{
+  background-color: rgba(240, 240, 240, 0.653);
+}
